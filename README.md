@@ -1,6 +1,10 @@
-make up
-make npm-install
-make cli
-php artisan migrate
+in bash <br>
+<code>
+    make up </br>
+    make npm-install </br>
+    make cli </br>
+    php artisan migrate
+</code>
+
 
 
