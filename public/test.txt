@@ -1,0 +1,26 @@
+POST /contacts HTTP/1.1
+Accept:             text/html, application/xhtml+xml
+Accept-Encoding:    gzip, deflate, br, zstd
+Accept-Language:    en,ru;q=0.9
+Connection:         keep-alive
+Content-Length:     33
+Content-Type:       application/json
+Cookie:             remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6IlV1cTErbnJjQkpmTDN0Q1VUSEVyM0E9PSIsInZhbHVlIjoiRWpxanU0TjZRTit4N2k0Y01lMHBud0NOUDJrSjRETzZjVm44MnRSczFmUU5Pd1BTMkpOTEd0bzRHcVlob1FlWXdIOXNOcHprVGJQb2paQUl0bGp3azRRL25uay9XbFlzN0xLR2JUVlVJOUZhb09BUkgyL1ZzaGFvWEFFWmlBUkUxZW0vNGpjcXRwRHlIdC9BT2VLL3l6V0d2Z0ZvNlBEeDBCOUtJd1I0WXVoNG9KcjFWVWxIMGgrdUo0dmlMKzNWRjMxS05OV3BMR0t4QjBjT1lxY0sxc3JBV1hvamE2Q25DZ1ViakZNMzJtcz0iLCJtYWMiOiJjNTM0YWJmZjE0ZDI1NjcyNjgxYzBlN2M0OTUxYzYzNzZlZGZkNThjNWM3YzBkM2QyYjQ3OTE5NzUzODk3YjEyIiwidGFnIjoiIn0%3D; XDEBUG_SESSION=XDEBUG_ECLIPSE; XSRF-TOKEN=eyJpdiI6InhuTUIrZndaRXVkT2JNa2N3aHNJZGc9PSIsInZhbHVlIjoiT2FXdWpPUzFHVHV5UVFlTzBNWmhXZzNKY2xEaWtTOElEbkdLMzVCSlhaY3pvY3VlZVJVMTU5a3FmZ2NKSGo5TGdIT0NmOFpJbzdqb0tvREx3dmZDVWw5bE1DWmc0VFl6TUxGQ1lWQlU0RDNNYWYzS1liNGV0UFJlSWdRNDRZa3MiLCJtYWMiOiJlMWEyZjQ4YTk1YWFiNzI4NTU5MjcyNDQ3NDQ1OTJjMTg0OTJmYjYyZjJlMTA3ZDgxNTkyODBkMjE3NmQ4ODU2IiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6ImRmb0tSTkg5Q2xERTRLQWdGMEFWcXc9PSIsInZhbHVlIjoiVVlOaG5HN0lyQ3lOcGQ0ckY1VTZhcDhOaGdZSzVod2Qrdko4ejdSTVA5OHJHU2FxcjZrUStTd1ZuUnpFS3VMODNlT1RpcTd2dlQ0R1drOVNoclFZYk1FUVBMNmNyaUp0VThoSUN4R1R2ODhtSmU1TnEwTTcwb0paUXJkcEZqb3YiLCJtYWMiOiJiZTRkMmQwNDhiYzRiNTNiNTA5MmY3MjQ2NGJjY2M2MzY1MDMxNTc0OTcxYjZmMjY5YTA4MTY0N2FkMTc5NDA4IiwidGFnIjoiIn0%3D
+Host:               127.0.0.1:8000
+Origin:             http://127.0.0.1:8000
+Referer:            http://127.0.0.1:8000/contacts/create
+Save-Data:          on
+Sec-Ch-Ua:          "Chromium";v="124", "YaBrowser";v="24.6", "Not-A.Brand";v="99", "Yowser";v="2.5"
+Sec-Ch-Ua-Mobile:   ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Dest:     empty
+Sec-Fetch-Mode:     cors
+Sec-Fetch-Site:     same-origin
+User-Agent:         Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36
+X-Inertia:          true
+X-Inertia-Version:  043d76fe7b07737fe924adadbb03655d
+X-Requested-With:   XMLHttpRequest
+X-Xsrf-Token:       eyJpdiI6InhuTUIrZndaRXVkT2JNa2N3aHNJZGc9PSIsInZhbHVlIjoiT2FXdWpPUzFHVHV5UVFlTzBNWmhXZzNKY2xEaWtTOElEbkdLMzVCSlhaY3pvY3VlZVJVMTU5a3FmZ2NKSGo5TGdIT0NmOFpJbzdqb0tvREx3dmZDVWw5bE1DWmc0VFl6TUxGQ1lWQlU0RDNNYWYzS1liNGV0UFJlSWdRNDRZa3MiLCJtYWMiOiJlMWEyZjQ4YTk1YWFiNzI4NTU5MjcyNDQ3NDQ1OTJjMTg0OTJmYjYyZjJlMTA3ZDgxNTkyODBkMjE3NmQ4ODU2IiwidGFnIjoiIn0=
+Cookie: remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=21|sypvUIvo3FYhGBuhKssQ6em4F6eaErIHKjfCeH6Xw3Qlcnr1gy7XIGqXsMlh|$2y$12$kYeqPrA/CkMYapBWbOokVuLTVqyOQaUDeo82p4lSea8QRNWWhHiMW; XDEBUG_SESSION=; XSRF-TOKEN=0Bx26VZuNgODKqIJ1ZTQf4PmWY1NVieIEz5G1ioP; laravel_session=qg1YBDfOU1Kt5dFDSt011ikwBgON3IWhWz8Bxivy
+
+{"name":"John Doe","phone":22222}
