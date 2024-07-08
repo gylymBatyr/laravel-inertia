@@ -1,3 +1,5 @@
+maked on laravel + vue inertia
+
 in bash <br>
 <code>
     make up </br>
